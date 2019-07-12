@@ -1,14 +1,12 @@
-## What is Awesome CV?
-
-**Awesome CV** is LaTeX template for a **CV(Curriculum Vitae)**, **Résumé** or **Cover Letter** inspired by [Fancy CV](https://www.sharelatex.com/templates/cv-or-resume/fancy-cv). It is easy to customize your own template, especially since it is really written by a clean, semantic markup.
-
 ## How to Use
 
 #### Requirements
 
+```bash
 sudo apt-get install texlive-full
 sudo apt-get install texlive-fonts-recommended texlive-fonts-extra
 sudo apt-get install fonts-font-awesome
+```
 
 #### Usage
 
