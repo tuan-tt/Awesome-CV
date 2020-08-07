@@ -1,3 +1,11 @@
+<h1 align="center">
+  <a href="https://github.com/posquit0/Awesome-CV" title="AwesomeCV Documentation">
+    <img alt="AwesomeCV" src="https://github.com/posquit0/Awesome-CV/raw/master/icon.png" width="200px" height="200px" />
+  </a>
+  <br />
+  Awesome CV
+</h1>
+
 ## How to Use
 
 #### Requirements
@@ -16,6 +24,9 @@ xelatex resume.tex
 
 This should result in the creation of ``resume.pdf``
 
+## Preview
+
+![Résumé](https://github.com/tuan-tt/Awesome-CV/blob/master/resume.png?raw=true)
 
 ## Credit
 
