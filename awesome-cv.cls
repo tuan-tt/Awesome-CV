@@ -151,11 +151,6 @@
 \newbool{acvSectionColorHighlight}
 \setbool{acvSectionColorHighlight}{true}
 
-% Awesome section color
-\def\@sectioncolor#1#2#3{%
-  \ifbool{acvSectionColorHighlight}{{\color{awesome}#1#2#3}}{#1#2#3}%
-}
-
 
 %-------------------------------------------------------------------------------
 %                Configuration for fonts
@@ -188,24 +183,24 @@
 %-------------------------------------------------------------------------------
 % Configure styles for each CV elements
 % For fundamental structures
-\newcommand*{\headerfirstnamestyle}[1]{{\fontsize{22pt}{1.2em}\headerfontlight\color{graytext} #1}}
-\newcommand*{\headerlastnamestyle}[1]{{\fontsize{22pt}{1.2em}\headerfont\bfseries\color{text} #1}}
-\newcommand*{\headerpositionstyle}[1]{{\fontsize{9pt}{1.2em}\bodyfont\scshape\color{awesome} #1}}
+\newcommand*{\headerfirstnamestyle}[1]{{\fontsize{20pt}{1.2em}\headerfontlight\color{graytext} #1}}
+\newcommand*{\headerlastnamestyle}[1]{{\fontsize{20pt}{1.2em}\headerfont\bfseries\color{text} #1}}
+\newcommand*{\headerpositionstyle}[1]{{\fontsize{9pt}{1.2em}\bodyfont\scshape\color{text} #1}}
 \newcommand*{\headeraddressstyle}[1]{{\fontsize{8pt}{1.2em}\headerfont\itshape\color{text} #1}}
 \newcommand*{\headersocialstyle}[1]{{\fontsize{8pt}{1.2em}\headerfont\color{text} #1}}
 \newcommand*{\headerquotestyle}[1]{{\fontsize{10pt}{1em}\bodyfont\itshape\color{text} #1}}
 \newcommand*{\footerstyle}[1]{{\fontsize{8pt}{1em}\footerfont\scshape\color{lighttext} #1}}
-\newcommand*{\sectionstyle}[1]{{\fontsize{14pt}{1em}\bodyfont\bfseries\color{text}\@sectioncolor #1}}
+\newcommand*{\sectionstyle}[1]{{\fontsize{14pt}{1em}\bodyfont\bfseries\color{text} #1}}
 \newcommand*{\paragraphstyle}{\fontsize{10.5pt}{1.4em}\bodyfont\upshape\color{text}}
 
 % For elements of entry
-\newcommand*{\entrytitlestyle}[1]{{\fontsize{12pt}{1.2em}\bodyfont\bfseries\color{text} #1}}
-\newcommand*{\entrysimpletitlestyle}[1]{{\fontsize{11pt}{1.2em}\bodyfont\scshape\color{text} #1}}
-\newcommand*{\entrypositionstyle}[1]{{\fontsize{10pt}{1.2em}\bodyfont\scshape\color{graytext} #1}}
-\newcommand*{\entrydatestyle}[1]{{\fontsize{9pt}{1.2em}\bodyfont\slshape\color{text} #1}}
-\newcommand*{\entrysimpledatestyle}[1]{{\fontsize{9pt}{1.2em}\bodyfont\slshape\color{text} #1}}
-\newcommand*{\entrylocationstyle}[1]{{\fontsize{9pt}{1.2em}\bodyfont\slshape\color{text} #1}}
-\newcommand*{\descriptionstyle}[1]{{\fontsize{10.5pt}{1.4em}\bodyfont\upshape\color{text} #1}}
+\newcommand*{\entrytitlestyle}[1]{{\fontsize{11.5pt}{1.15em}\bodyfont\bfseries\color{text} #1}}
+\newcommand*{\entrysimpletitlestyle}[1]{{\fontsize{10.5pt}{1.15em}\bodyfont\scshape\color{text} #1}}
+\newcommand*{\entrypositionstyle}[1]{{\fontsize{9.5pt}{1.15em}\bodyfont\scshape\color{graytext} #1}}
+\newcommand*{\entrydatestyle}[1]{{\fontsize{8.5pt}{1.15em}\bodyfont\slshape\color{text} #1}}
+\newcommand*{\entrysimpledatestyle}[1]{{\fontsize{8.5pt}{1.15em}\bodyfont\slshape\color{text} #1}}
+\newcommand*{\entrylocationstyle}[1]{{\fontsize{8.5pt}{1.15em}\bodyfont\slshape\color{text} #1}}
+\newcommand*{\descriptionstyle}[1]{{\fontsize{10pt}{1.35em}\bodyfont\upshape\color{text} #1}}
 
 %-------------------------------------------------------------------------------
 %                Commands for personal information
